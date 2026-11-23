@@ -1,0 +1,11 @@
+# Versions found in the original project's Python environment (tez.zip/.venv).
+# These are for reproducibility; installation and interactive browser rendering
+# were not independently verified in the packaging environment.
+streamlit==1.57.0
+scikit-learn==1.8.0
+joblib==1.5.3
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+openpyxl==3.1.5
+odfpy==1.4.1
