@@ -1,0 +1,32 @@
+# Python / local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Sensitive local settings
+.env
+.env.*
+*.key
+*.pem
+
+# Raw news datasets, survey responses, generated data
+/data/*
+!/data/.gitkeep
+*.ods
+*.xlsx
+
+# Only approved summary results are committed
+/outputs/*
+!/outputs/calibrated_svm_sonuclari.csv
+!/outputs/model_sonuclari.csv
+!/outputs/anket_kriter_agirliklari_duzeltilmis.csv
+!/outputs/anket_veri_kalite_ozeti_duzeltilmis.csv
+
+# Temporary archives
+*.zip
